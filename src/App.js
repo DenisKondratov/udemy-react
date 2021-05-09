@@ -1,4 +1,5 @@
 import './App.css';
+import './components/Expenses.css'
 import ExpenseItem from './components/ExpenseItem'
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div className="expenses">
       <ExpenseItem amount={expenses[0].amount} title={expenses[0].title} date={expenses[0].date}/>
       <ExpenseItem amount={expenses[1].amount} title={expenses[1].title} date={expenses[1].date}/>
       <ExpenseItem amount={expenses[2].amount} title={expenses[2].title} date={expenses[2].date}/>
